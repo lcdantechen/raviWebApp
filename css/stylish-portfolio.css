@@ -6,14 +6,22 @@
 
 /* Global Styles */
 
+
+/*slider show above------------------------------*/
+
 html,
 body {
     width: 100%;
     height: 100%;
+    color:#1ee98f;
 }
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer {
+    background-color: #000;
 }
 
 .text-vertical-center {
@@ -27,6 +35,8 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    color:#fff;
+    z-index: 2000;
 }
 
 /* Custom Button Styles */
@@ -69,11 +79,11 @@ hr.small {
     z-index: 1000;
     position: fixed;
     right: 0;
-    width: 250px;
+    width: 150px;
     height: 100%;
     transform: translateX(250px);
     overflow-y: auto;
-    background: #222;
+    background: #E91E63;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -98,7 +108,7 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {
@@ -119,7 +129,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -155,7 +165,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg01.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -165,13 +175,32 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 5px 0;
+    background-color: rgb(249, 255, 189);;
 }
 
 /* Services */
 
+.fa-gratipay, .fa-shopping-cart, .fa-users {
+    color:#fff;
+}
+
 .services {
-    padding: 50px 0;
+    padding: 130px 0;
+    /*background-color:#b40431;*/
+    background: url(../img/bg03.jpg) no-repeat 55% 35% scroll;
+}
+.serviceH2{
+    color:#fff;
+}
+.serviceH4{
+    color:#fff;
+}
+.serviceP {
+    color:#fff;
+}
+.services i {
+    font-color:#fff;
 }
 
 .service-item {
@@ -195,7 +224,7 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .portfolio-item {
