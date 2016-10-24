@@ -36,23 +36,28 @@ footer {
     padding: 0;
     font-size: 6.5em;
     font-weight: 700;
-    color:#fff;
+    color:#3ba6fc;
     z-index: 2000;
 }
+.text-vertical-center h3 {
+
+  color:#0077d5;
+}
+
 
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(33, 150, 243, 0.71);;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(59, 166, 252, 0.83);
 }
 
 .btn-light {
@@ -84,7 +89,7 @@ hr.small {
     height: 100%;
     transform: translateX(250px);
     overflow-y: auto;
-    background: #2E2D88;
+    background: #014075;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -166,7 +171,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg01.jpg) no-repeat center center scroll;
+    background: url(../img/bgNew.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -176,8 +181,9 @@ hr.small {
 /* About */
 
 .about {
+    color:#fff;
     padding: 5px 0;
-    background-color: rgb(249, 255, 189);;
+    background-color: #014075;
 }
 
 /* Services */
@@ -189,10 +195,14 @@ hr.small {
 .services {
     padding: 130px 0;
     /*background-color:#b40431;*/
-    background: url(../img/bg03.jpg) no-repeat 55% 35% scroll;
+    background: url(../img/bgNew02.jpg) no-repeat center 24% scroll;
 }
 .serviceH2{
-    color:#fff;
+    color:#014075;
+
+}
+.services .fa-circle {
+  color:#014075;
 }
 .serviceH4{
     color:#fff;
@@ -269,7 +279,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 #to-top {
@@ -370,4 +380,20 @@ footer {
   transform: translate3d(0,0,0);
 }
 
+
+.btn-success {
+    color: #fff;
+    background-color: #014075;
+    border-color: #014075;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: rgba(33, 150, 243, 0.71);
+    border-color: rgba(33, 150, 243, 0.71);
+}
+
+footer {
+color:rgba(33, 150, 243, 0.71);
+}
 /*------------------------*/
